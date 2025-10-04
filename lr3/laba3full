@@ -1,0 +1,177 @@
+#include <iostream>
+#include <cmath>
+#include <math.h>
+
+using namespace std; // ЭТО ДЛЯ ВСЕГО!!!
+
+
+/*double a, b, c, D, x1, x2;
+int main() {
+	setlocale(LC_ALL, "RU");
+
+	cout << ("Введите a"); 
+	cin >> (a);
+	cout << ("Введите b"); 
+	cin >> (b);
+	cout << ("Введите c"); 
+	cin >> (c);
+
+	D = pow(b, 2) - 4 * a * c;
+
+	if (D > 0) {
+		x1 = (( - b - sqrt(D)) / (2 * a));
+		x2 = (( - b + sqrt(D)) / (2 * a));
+		cout << "Первый корень: " << x1 << "  Второй корень: " << x2;         
+	}
+	else if (D == 0) {
+		x1 = ( - b / (2 * a));
+		cout << "Уравнение имеет 1 корень: " << x1;
+
+	}
+	else {
+
+		cout << "Уравнение не имеет корней";
+	}
+
+	return 0;} */
+
+
+
+
+
+
+
+/*double a, b, c;
+int main() {
+	setlocale(LC_ALL, "RU");
+
+	cout << ("Введите 1 сторону: ");
+	cin >> (a);
+	cout << ("Введите 2 сторону: ");
+	cin >> (b);
+	cout << ("Введите 3 сторону: ");
+	cin >> (c);
+	
+	if ( a + b > c && a + c > b && b + c > a) {
+		if (a == b && b == c && c == a) {
+			cout << "Треугольник равносторонний";
+		}
+		else if (a == b && a != c || a == c && a != b || b == c && b != a) {
+			cout << "Треугольник равнобедренный";
+		}
+		else if (pow(a, 2) + pow(b, 2) == pow(c, 2) || pow(a, 2) + pow(c, 2) == pow(b, 2) || pow(c, 2) + pow(b, 2) == pow(a, 2)) {            
+			cout << "Треугольник прямоугольный";
+		}
+		else {
+			cout << "Треугольник разносторонний";
+		}
+	}
+	else {
+		cout << "Треугольника не существует";
+	}
+} */
+
+
+
+
+
+/*int main() {
+		setlocale(LC_ALL, "RU");
+		int n, m;
+		cout << ("Введите количество коров: ");
+		cin >> (n);
+		m = n - (n / 10) * 10;
+
+		if (n < 100 && n > 0) {
+			if (m == 1) {
+				cout << n << " корова";
+			}
+			else if (m < 5) {
+					cout << n << " коровы";                                        
+			} 
+			else if (m >= 5 || n <= 9){
+				cout << n << " коров";
+			}
+		}
+		else {
+			cout << "Коровы введены некорректно";
+		} 
+}*/
+
+
+
+
+
+
+/*int main() {
+	setlocale(LC_ALL, "RU");
+	int a;
+	cout << ("Введите номер дня недели: ");
+	cin >> (a);
+	if (a <= 7 && a >= 1) {
+		switch (a) {
+		case 1:
+			cout << "Понедельник";
+			break;
+		case 2:
+			cout << "Вторник";
+			break;
+		case 3:
+			cout << "Среда";
+			break;
+		case 4:
+			cout << "Четверг";
+			break;
+		case 5:
+			cout << "Пятница";
+			break;
+		case 6:
+			cout << "Суббота";
+			break;
+		case 7:
+			cout << "Воскресенье";
+			break;
+
+		}
+
+
+	}
+	else {
+		cout << "Неправильно введен день недели";
+	}
+}*/
+
+
+
+
+
+/*int main() {
+	setlocale(LC_ALL, "RU");
+	int A, B, C;
+	double  a, b ,c;
+	cout << ("Введите число A ");
+	cin >> (A);
+	cout << ("Введите число B ");
+	cin >> (B);
+	cout << ("Введите число C ");
+	cin >> (C);
+
+	if (fabs(A) <= 10000 && fabs(B) <= 10000 && fabs(C) <= 10000) {
+		a = (A % 2 == 0) ? 1 : 0;      // 1 - истина(число четное)   0 - число нечетное
+		b = (B % 2 == 0) ? 1 : 0;
+		c = (C % 2 == 0) ? 1 : 0;
+		if (a != b || a != c || b != c) {
+			cout << "YES";
+		}
+		else {
+			cout << "NO";
+		}
+	}
+	else {
+		cout << "Число превышает допустимые параметры";
+	}
+
+
+
+}*/
+
