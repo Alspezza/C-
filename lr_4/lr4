@@ -1,0 +1,72 @@
+#include <cmath>
+#include <math.h>
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+/*int main()
+{   
+	setlocale(LC_ALL, "RU");
+	double   n, n2;
+	int N, K;
+
+	cout << "Введите число N: ";
+	cin >> N;
+	cout << "Введите число K: ";
+	cin >> K;
+
+	if (N > 0 && N < 1000 && N < K && K > 0 && K < 1000) {
+		while (N <= K) {
+			N++;
+
+
+			if (N % 3 == 0 && N % 5 != 0) {
+				cout << "Подходящее число: " << N << endl;
+
+			}
+		}
+	}
+	else {
+		cout << "Введенные числа не удовлетворяют условию";
+	} 
+} */
+
+
+
+
+/*int main() {
+	
+	setlocale(LC_ALL, "RU");
+
+	string n;
+	int x;
+	char first, i;
+	x = 0;
+	cout << "Введите число n: ";
+	cin >> n;
+
+	first = n[0];
+	cout << "Первая цифра: " << first << endl;
+	cout << "Количество цифр:" << n.length() << endl;
+	for (char i : n) {
+		int digit = i - '0';
+		x += digit;
+	}
+	cout <<"Сумма чисел равна: " << x;
+	}*/
+
+
+
+
+
+int main() {
+
+	setlocale(LC_ALL, "RU");
+
+	for (int i = 100; i <= 110, i++;) {
+		char(x) = i;
+		cout << x;
+		
+	}
+}
